@@ -1,0 +1,55 @@
+body{
+  background-image: url(wall.jpg);
+
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  height: 100px;
+  background-color: rgba(250, 237, 2, 0.9);
+  font-family: 'Playfair Display', serif;
+  color: black;
+  text-transform: uppercase;
+  z-index: 2;
+}
+h1{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.count {
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+    line-height: 33%;
+    color: #F05B27;
+    text-shadow: 2px 2px black;
+}
+.bottle {
+    width: 150%;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.bottle:hover {
+  transform:scale(1.1);
+}
+.hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+main{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+
+
+}
